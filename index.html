@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET-TO-ABB1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lumanosimo&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="styles/indstyles.css" rel="stylesheet"/>
+
+</head>
+<body>
+    
+<div class="img_container">
+        <header id="myheader">
+            <nav class="nav_bar">
+                <ul> 
+            <li class="about_cont">
+                <a href="#about_section_id" data-page="home"class="about_link" >ABOUT US</a>
+            </li>
+            <li class="contact_cont">
+                <a href="#footer_id"  data-page="contact"class="contact_link">Contact</a>
+            </li>
+            <li class="site_logo">
+                <a href="#input_section_id" data-page="input"class="h_link">
+                GET-TO-ABB1
+                </a>
+            </li>
+            <li class="news_cont">
+                <a href="#news_section_id" data-page="news" class="news_link">News</a>
+            </li>
+                <li class="signin_container">
+                    <button class="signin_button" type="button" >Sign-In</button> 
+                </li> 
+                <div class="bubble"></div>
+                </ul>
+            </nav>  
+        </header>
+    <!-- <div class="fbody_content"> -->
+      <section class="home" data-index="0">
+        <div class="sticky">
+            <div class="container">
+     <pre> <h1 class="home_head1">WE HELP YOU GET TO YOUR LOCATION      ANYWHERE                And                  EVERYWHERE </h1></pre>
+      <h1 class="home_headx"></h1>
+      <h2 class="home_head2"></h2>
+      <h3 class="home_head3"></h3>
+      <h2 class="home_head4"></h2>
+
+      <div class="start_container">
+        <button  class="start_button" type="button" onclick="scrollWin()">Get-Started ></button>
+      </div>
+    </div>
+</div>
+      </section>
+
+      <section class="input_section" id="input_section_id" data-index="1">
+
+                <div class="sticky">
+                    <div class="container">
+                        <div class="inp_form_container">
+                <form action="">
+                    <label for="user_location">Your Location</label>
+                    <input type="text" id="user_location" name="input_location" class="in_loc" list="loc_list_input">
+                    <datalist id="loc_list_input" class="loc_list_inp">
+                        <option value="G5">
+                        <option value="G1">
+                        <option value="G2">
+                        <option value="G3">
+                        <option value="G4">
+                    </datalist>
+                    <label for="user_destination">Your destination</label>
+                    <input type="text" id="user_destination" name="input_destination" class="in_dest" list="loc_list_destination">
+                    <datalist id="loc_list_destination" class="loc_list_dest">
+                        <option value="G5">
+                        <option value="G1">
+                        <option value="G2">
+                        <option value="G3">
+                        <option value="G4">
+                    </datalist>
+                    <button type="submit"  class="in_butt">Confirm</button>
+                </form>
+                      </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="output_section">
+                <div class="sticky">
+                    <div class="container">
+                    </div>
+                </div>
+            </section> -->
+       
+
+        <section class="news_art" id="news_section_id"  data-index="2">
+           
+            <div class="sticky">
+                <div class="blur_class">
+                <div class="container">
+                  
+            <article class="art_class">
+                <div class="art_class2">
+                <h4 class="art_head">Latest Events</h4>
+                <ul class="art_list">
+                   <b> <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus in ab animi sed maiores fugit sunt quis commodi sint,a quidem accusamus!</li>
+                    <br>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ea adipisci perferendis commodi dignissimos! Voluptatem assumenda  deserunt ad.</li>
+                    <br>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi error expedita porro repellat ex, corporis nostrum officiis alias  corrupti.</li></b>
+                </ul>
+            </div>
+            </article>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="about_us" id="about_section_id" data-index="3">
+
+             <div class="sticky">
+                <div class="container_about_class">
+                    <div class="about_class">
+                    <h1 class="about_us_head">ABOUT US</h1>
+                </div>
+                </div>
+             </div>
+        </section>
+    </div>
+<!-- </div> -->
+<footer id="footer_id">
+    <table>
+    <thead>
+        <tr>
+            <td>Contact</td>
+            <td></td>
+            <td>Usage Policy</td>
+        </tr>
+    </thead>
+<tbody>
+<tr>
+    <td > <a href="https://www.google.com/" class="rel_links">  For General Queries</a>   </td>
+    <td> <a href="https://www.google.com/" class="rel_links">FAQs</a></td>    
+        <td><a href="https://www.google.com/" class="rel_links"> Privacy Policy</a></td>
+</tr>
+<tr>
+    <td ><a href="https://www.google.com/" class="rel_links">For supporting Us</a></td>
+    <td></td>
+    <td><a href="https://www.google.com/" class="rel_links">Terms and Conditions</a></td>
+</tr>
+</tbody>
+        
+
+</table>
+</footer>
+<script src="scripts/app2.js"></script>
+
+<script src="scripts/script.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
